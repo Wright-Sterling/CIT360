@@ -21,6 +21,7 @@ public class Threads {
     public static void main(String[] args) throws InterruptedException {
         // Demo simple threads with start and run
         System.out.println("Showing simple thread execution:");
+        simpleThreads();
         
         System.out.println("Showing thread execution using runnable:");
         runnableThreads();
